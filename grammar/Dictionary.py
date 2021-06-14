@@ -54,11 +54,7 @@ print(data.values())
 
 
 #각 키에 따른 값을 하나씩 출력
-#키 값을 하나씩 출력 못함. 36번째 data.values() 불가
-data = dict()
-data['사과'] = 'apple'
-data['바나나'] = 'banana'
-data['코코넛'] = 'coconut'
+#키 값을 하나씩 출력 못함. 39번째 data.values() 불가
 
 value = data.keys()
 for v in value:
