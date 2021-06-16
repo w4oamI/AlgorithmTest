@@ -9,9 +9,3 @@ for i in range(n+1):
 print(count)
 
 #------------------------------------#
-
-arr = list(map(int, input().split()))
-cnt(arr)
-
-def cnt(arr):
-  print(arr)

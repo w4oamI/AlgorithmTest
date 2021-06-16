@@ -1,15 +1,31 @@
-s = input()
-ch=[]
-value = 0
+# s = input()
+# ch=[]
+# value = 0
 
-for x in s:
-  if x.isalpha():
-    ch.append(x)
+# for x in s:
+#   if x.isalpha():
+#     ch.append(x)
+#   else:
+#     value += int(x)
+
+# ch.sort()
+
+# if value != 0:
+#   ch.append(str(value))
+# print(''.join(ch))
+
+s=input()
+ch=[]
+value =0
+
+for i in s:
+  if i.isalpha():
+    ch.append(i)
   else:
-    value += int(x)
+    value+=int(i)
 
 ch.sort()
 
-if value != 0:
+if value!=0:
   ch.append(str(value))
-print(''.join(ch))
+print(','.join(ch))
